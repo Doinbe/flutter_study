@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_study/future_pages/future_page.dart';
 import 'package:flutter_study/picker_image.dart';
 
-import 'animation_page.dart';
+import 'animation_pages/animation_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         'pickerIameg': (BuildContext context) => PickerImagePage('获取图片'),
         'animation': (BuildContext context) => AnimationPage('Flutter动画'),
+        'future': (BuildContext context) => FuturePage('Flutter异步'),
       },
     );
   }
@@ -54,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
             _itemWidget('原生(拍照，相册)图片获取', PickerImagePage('获取图片'), 'pickerIameg'),
             _itemWidget('Flutter动画', AnimationPage('Flutter动画'), 'animation'),
+            _itemWidget('Flutter异步', FuturePage('Flutter异步'), 'future'),
           ],
         ),
       ),
