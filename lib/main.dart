@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
             _itemWidget('原生(拍照，相册)图片获取', PickerImagePage('获取图片'), 'pickerIameg'),
             _itemWidget('Flutter动画', AnimationPage('Flutter动画'), 'animation'),
             _itemWidget('Flutter异步', FuturePage('Flutter异步'), 'future'),
-            _itemWidget('Flutter异步', JsonPage('JsonToDart'), 'json'),
+            _itemWidget('JsonToDart', JsonPage('JsonToDart'), 'json'),
           ],
         ),
       ),
