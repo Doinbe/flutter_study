@@ -1,16 +1,11 @@
 # flutter_study
 
-A new Flutter application.
+依照 ([Flutter 官网](https://flutter.cn/#)) 的说明，对不同模块的练习
 
-## Getting Started
+## Demo 图片
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![首页](https://github.com/Doinbe/flutter_study/blob/master/images/C1F7E5B2-C962-447D-BA90-2D519C38351C.png)
+![动画](https://github.com/Doinbe/flutter_study/blob/master/images/QQ20190923-183654%402x.png)
+![异步](https://github.com/Doinbe/flutter_study/blob/master/images/QQ20190923-183708%402x.png)
+![JsonToDart](https://github.com/Doinbe/flutter_study/blob/master/images/QQ20190923-183717%402x.png)
+![SP](https://github.com/Doinbe/flutter_study/blob/master/images/QQ20190923-183748%402x.png)
