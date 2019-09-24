@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_study/future_pages/future_page.dart';
 import 'package:flutter_study/json_pages/json_page.dart';
 import 'package:flutter_study/json_pages/shared_preferences_page.dart';
+import 'package:flutter_study/list_pages/list_page.dart';
 import 'package:flutter_study/picker_image.dart';
 
 import 'animation_pages/animation_page.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         'future': (BuildContext context) => FuturePage('Flutter异步'),
         'json': (BuildContext context) => JsonPage('JsonToDart'),
         'shared_preferences': (BuildContext context) => SharedPreferencesPage('SharedPreferences'),
+        'List': (BuildContext context) => ListPage('集合列表View'),
       },
     );
   }
@@ -63,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
             _itemWidget('Flutter异步', FuturePage('Flutter异步'), 'future'),
             _itemWidget('JsonToDart', JsonPage('JsonToDart'), 'json'),
             _itemWidget('SharedPreferences', SharedPreferencesPage('SharedPreferences'), 'shared_preferences'),
+            _itemWidget('集合列表View', ListPage('集合列表View'), 'List'),
           ],
         ),
       ),
